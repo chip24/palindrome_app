@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang=en >
  <head>
  <meta charset="utf-8">
  <title>Learn Enough Ruby Sample App | <%= @title %></title>
@@ -14,8 +14,9 @@ family=Open+Sans:300,400"
  <img src="/images/logo_b.png" alt="Learn Enough logo">
  </a>
  <div class="container">
+ 	<%= erb :navigation %>
  <div class="content">
- 	<%= yield %>
+ <%= yield %>
  </div>
  </div>
  </body>
