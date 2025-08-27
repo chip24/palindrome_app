@@ -4,6 +4,7 @@ GEM
     ansi (1.5.0)
     base64 (0.3.0)
     builder (3.3.0)
+    chpmrgn_palindrome (0.2.0)
     logger (1.7.0)
     mini_portile2 (2.8.9)
     minitest (5.25.0)
@@ -74,6 +75,7 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
+  chpmrgn_palindrome (= 0.2.0)
   minitest (= 5.25.0)
   minitest-reporters (= 1.6.1)
   nokogiri (= 1.18.9)

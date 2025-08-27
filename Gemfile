@@ -6,6 +6,7 @@ gem 'sinatra', '4.1.1'
 gem 'puma', '6.6.0'
 #gem 'rerun', '0.13.0'
 gem 'rack'
+gem 'chpmrgn_palindrome', '0.2.0'
 
 group :test do
   gem 'minitest', '5.25.0'
