@@ -24,4 +24,10 @@ class PalindromeAppTest < Minitest::Test
   assert_includes doc(last_response).at_css('p').content,
   "is a palindrome"
  end
+
+ def test_blank_palindrome_submission
+  post '/check', phrase: "             "
+  assert_includes doc(last_response).at_css('p').content,
+  "isn't a palindrome"
+ end
 end
